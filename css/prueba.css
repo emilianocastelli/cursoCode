@@ -1,0 +1,123 @@
+body {
+  font-family: Roboto;
+  background-color: #EBEBEB;
+  margin: 0px;
+  position: relative; }
+  body .tituloSeccion {
+    font-size: 24px;
+    color: #3780F7;
+    font-weight: bold; }
+
+header {
+  margin-bottom: 5px;
+  padding: 10px;
+  background-image: url("../imagenes/autodromos/laplata.jpg"); }
+  header .logoPortada {
+    float: right;
+    height: 180px;
+    width: 200px;
+    margin-right: 10px;
+    transform: skewX(-15deg); }
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: linear-gradient(to bottom, #212529 4%, #9793a9 64%, #cac3e0 90%, #d8d0ef 97%); }
+  footer p {
+    display: inline;
+    margin-right: 25px;
+    color: #ffffff; }
+
+.navPersonal {
+  background-color: #cc0000;
+  padding: 5px;
+  text-align: center; }
+  .navPersonal ul {
+    list-style-type: none; }
+    .navPersonal ul li {
+      display: inline-block;
+      color: #ffffff;
+      margin-right: 50px; }
+  .navPersonal a, .navPersonal .dropdownNav {
+    display: inline-block;
+    font-family: sans-serif;
+    padding: 1rem;
+    color: #ffffff;
+    border-radius: 5px; }
+  .navPersonal a:hover, .navPersonal .dropdownNav:hover {
+    background-color: #3780F7; }
+  .navPersonal nav a:focus {
+    transform: scale(1.1); }
+  .navPersonal .spanMenu {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 18px; }
+
+.campeonato {
+  background-color: #ffffff; }
+  .campeonato img {
+    width: 50px;
+    height: 50px; }
+  .campeonato td {
+    padding: 15px 50px 5px 20px; }
+
+.carouselPersonal img {
+  max-height: 450px;
+  background-color: rgba(0, 0, 0, 0.1); }
+
+.carouselPersonal h5 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: sans-serif; }
+
+aside {
+  text-align: center;
+  background-color: #ffffff; }
+  aside img {
+    margin: 15px;
+    width: 80%;
+    height: 230px; }
+
+.proximaFecha {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 15px; }
+  .proximaFecha img {
+    width: 180px;
+    height: 80px; }
+
+.resultadosHome span {
+  color: #F7EE37;
+  font-weight: bold; }
+
+.nivel-sube {
+  background-color: #88F737;
+  color: #88F737;
+  background-color: #79f61e; }
+
+.nivel-igual {
+  background-color: #F7EE37;
+  color: #F7EE37;
+  background-color: #f6ec1e; }
+
+.nivel-baja {
+  background-color: #cc0000;
+  color: #cc0000;
+  background-color: #b30000; }
+
+.pos-1 {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #3780F7; }
+
+.pos-2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif; }
+
+.pos-3 {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: sans-serif; }
