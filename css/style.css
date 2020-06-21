@@ -22,7 +22,7 @@ header {
 footer {
   text-align: center;
   padding: 25px;
-  background: linear-gradient(to bottom, #212529 4%, #9793a9 64%, #cac3e0 90%, #d8d0ef 97%); }
+  background: #cc0000; }
   footer p {
     display: inline;
     margin-right: 25px;
@@ -80,10 +80,6 @@ footer {
     max-height: 95%;
     padding: 10px;
     z-index: 1; }
-  .galeriaHome img:hover {
-    transform: scale(2);
-    transition: 1000ms ease;
-    z-index: 2; }
   .galeriaHome h4 {
     margin: 10px;
     font-weight: bold;
@@ -150,17 +146,3 @@ aside {
   font-size: 15px;
   font-weight: bold;
   font-family: sans-serif; }
-
-@media (max-width: 992px){
-  .pos-1, .pos-2, .pos-3{
-    font-size: 18px;
-  }
-  aside img{
-    max-width: 75%;
-    height: 20%;
-  }
-  .carouselPersonal h5{
-    font-size: 20px;
-  }
-
-}
