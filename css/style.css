@@ -45,7 +45,7 @@ footer {
     color: #ffffff;
     border-radius: 5px; }
   .navPersonal a:hover, .navPersonal .dropdownNav:hover {
-    background-color: #3780F7; }
+    background-color: rgba(0, 0, 0, 0.1); }
   .navPersonal nav a:focus {
     transform: scale(1.1); }
   .navPersonal .spanMenu {
@@ -59,7 +59,7 @@ footer {
     width: 50px;
     height: 50px; }
   .campeonato td, .resultados td {
-    padding: 15px 50px 5px 20px; }
+    vertical-align: middle; }
 
 .carouselPersonal img {
   max-height: 450px;
@@ -105,8 +105,11 @@ aside {
     font-family: sans-serif; }
 
 .resultadosHome span {
-  color: #F7EE37;
+  color: #000000;
   font-weight: bold; }
+
+.resultadosHome .nivel-igual {
+  font-size: 20px; }
 
 .fondoBlanco {
   background-color: #ffffff; }
@@ -133,18 +136,18 @@ aside {
   background-color: #b30000; }
 
 .pos-1 {
-  font-size: 35px;
+  font-size: 33px;
   font-weight: bold;
   font-family: sans-serif;
   font-weight: bold;
   color: #3780F7; }
 
 .pos-2 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: bold;
   font-family: sans-serif; }
 
 .pos-3 {
-  font-size: 15px;
+  font-size: 14.33333px;
   font-weight: bold;
   font-family: sans-serif; }
